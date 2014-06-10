@@ -11,9 +11,7 @@ The major steps that take place when a patient enters a hospital are:
 The focus of the following requirement analysis was based on the first three phases, which are: Patient Identification, 
 Patient record verification and retrieval or patient records, or the creation of a new patient record (Registration).
 
-
-
-Requirement Analysis
+Requirement Analysis:
 	* Ability to clearly identify a user (ID card/Hospital Card/Known Witness/Biometric Method)
 	* Easy ways of searching or querying the database
 	* Reducing the queues in the waiting room
@@ -21,12 +19,12 @@ Requirement Analysis
 	* Make registration based on identification criterias
 	* Special case (buffer) registration for emergency cases for later review and comitting to the patient records
 	* Patient record retrieval based on Identification criteria
----------------------------------------------------------------------------
+
 Functional Requirements:
 	* Setting up unique criteria for patient identification
 	* facilitate access to records for verification and retrieval
 	* Facilitating patient registration
----------------------------------------------------------------------------
+
 Non functional requirements:
 	* Ease of use of the system
 	* Incorporating HCI concepts to facilitate nurse interaction with the system
