@@ -8,8 +8,9 @@ In order to have a clear idea of the task at hand, we outlined the following ste
 3. If patient exist, retrieve patient file else, Register new patient
 4. Checks for vitals (Temperature, weight, etc...)
 5. Doctor Consultation for diagnosis and prescription
-6. Acquiring drugs from the pharmacy
-7. Drugs + consultation fee payment
-8. Exit
+6. Drugs + consultation fee payment
+7. Exit
 
 For the mean time, our objective is implementing the first three phases of a patient's visit to the hospital.
+
+
