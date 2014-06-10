@@ -1,3 +1,18 @@
+The major steps that take place when a patient enters a hospital are:
+    
+    1. Patient Identification
+    2. Patient record Verification
+    3. If patient exist, retrieve patient file else, Register new patient
+    4. Checks for vitals (Temperature, weight, etc...)
+    5. Doctor Consultation for diagnosis and prescription
+    6. Drugs + consultation fee payment
+    7. Exit
+
+The focus of the following requirement analysis was based on the first three phases, which are: Patient Identification, 
+Patient record verification and retrieval or patient records, or the creation of a new patient record (Registration).
+
+
+
 Requirement Analysis
 	* Ability to clearly identify a user (ID card/Hospital Card/Known Witness/Biometric Method)
 	* Easy ways of searching or querying the database
