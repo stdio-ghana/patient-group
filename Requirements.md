@@ -12,29 +12,29 @@ The focus of the following requirement analysis was based on the first three pha
 Patient record verification and retrieval or patient records, or the creation of a new patient record (Registration).
 
 Requirement Analysis:
-	* Ability to clearly identify a user (ID card/Hospital Card/Known Witness/Biometric Method)
-	* Easy ways of searching or querying the database
-	* Reducing the queues in the waiting room
-	* Multiple Simultaneous access to patient records (Nurses being able to attend to more patients at the same time)
-	* Make registration based on identification criterias
-	* Special case (buffer) registration for emergency cases for later review and comitting to the patient records
-	* Patient record retrieval based on Identification criteria
+	1. Ability to clearly identify a user (ID card/Hospital Card/Known Witness/Biometric Method)
+	2. Easy ways of searching or querying the database
+	3. Reducing the queues in the waiting room
+	4. Multiple Simultaneous access to patient records (Nurses being able to attend to more patients at the same time)
+	5. Make registration based on identification criterias
+	6. Special case (buffer) registration for emergency cases for later review and comitting to the patient records
+	7. Patient record retrieval based on Identification criteria
 
 Functional Requirements:
-	* Setting up unique criteria for patient identification
-	* facilitate access to records for verification and retrieval
-	* Facilitating patient registration
+	1. Setting up unique criteria for patient identification
+	2. facilitate access to records for verification and retrieval
+	3. Facilitating patient registration
 
 Non functional requirements:
-	* Ease of use of the system
-	* Incorporating HCI concepts to facilitate nurse interaction with the system
-	* Ability for multiple simultaneous record access
-	* Speed of the system 
-	* Access Control -> Different Levels of access and priviledges
-	* Security - Records should not be altered by unauthorized personnel
----------------------------------------------------------------------------
+	1. Ease of use of the system
+	2. Incorporating HCI concepts to facilitate nurse interaction with the system
+	3. Ability for multiple simultaneous record access
+	4. Speed of the system 
+	5. Access Control -> Different Levels of access and priviledges
+	6. Security -> Records should not be altered by unauthorized personnel
+
 Use cases: Actor -> Nurse
-	* Identify Patient
-	* Verify Patient
-	* Register Patient
-	* Retrieve Patient Record
+	1. Identify Patient
+	2. Verify Patient
+	3. Register Patient
+	4. Retrieve Patient Record
