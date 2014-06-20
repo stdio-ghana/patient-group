@@ -126,7 +126,7 @@ def add_new_patient():
 
     ptn1.displayPatient()
 
-ptn1.searchPersonByName("solo")
+#ptn1.searchPersonByName("solo")
 
 #ptn1.searchPersonById("1000")
 
@@ -136,6 +136,7 @@ def menu_option():
     ans=True
     while ans:
         print ("""
+        WELCOME TO PATIENT RECORD SYSTEM
         1.Register a patient
         2.Search for a patient by id
         3.Search for a patient by name
@@ -156,6 +157,7 @@ def menu_option():
           ptn1.searchPersonByName(ans)
         elif ans=="4":
           print("\n Goodbye")
+          exit()
         elif ans !="":
           print("\n Not Valid Choice Try again")
 
